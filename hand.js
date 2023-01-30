@@ -22,9 +22,6 @@ function combat(hand) {
     let cpuHand = Math.floor(Math.random() * 3)
     const result = array[cpuHand]
 
-
-    console.log(cpu[cpuHand])
-    console.log(hand, 'hand')
     if (hand !== undefined) {
         if (hand === result) {
             resultImg.src = `assets/${cpu[cpuHand]}.png`
