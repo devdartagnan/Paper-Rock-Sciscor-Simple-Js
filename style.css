@@ -21,9 +21,24 @@ body {
     height: 500px;
     margin:4rem  2rem;
     padding-top: 1.5rem;
+    position: relative;
     width: 450px;
 }
-
+.score-table{
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 8px;
+    bottom: -50px;
+    display: flex;
+    gap: 16px;
+    height: 36px;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 450px;
+}
+.score-table div p{
+    display: inline;
+}
 .options {
     text-align: center;
 }
