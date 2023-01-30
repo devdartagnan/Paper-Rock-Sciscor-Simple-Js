@@ -29,12 +29,14 @@ body {
     background-color: #FFF;
     border-radius: 8px;
     bottom: -50px;
+    box-sizing: border-box;
     display: flex;
     gap: 16px;
     height: 36px;
     justify-content: space-evenly;
+    margin:0 2rem;
     position: absolute;
-    width: 450px;
+    width: 100%;
 }
 .score-table div p{
     display: inline;
@@ -79,4 +81,10 @@ body {
 
 .none {
     display: none;
+}
+
+@media screen and (min-width:521px) {
+    .score-table{
+        width: 450px;
+    }
 }
